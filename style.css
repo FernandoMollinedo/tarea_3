@@ -1,0 +1,127 @@
+/* Quitar márgenes predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Configuración general de la página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+
+/* Contenedor principal */
+.contenedor {
+    margin: 20px auto;
+    width: 100%;
+    padding: 40px 20px 60px 20px;
+    background-color: #dff3fc;
+}
+
+
+/* Título principal */
+h1 {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 27px;
+    color: #111;
+
+    
+}
+
+
+/* Contenedor de las tres tarjetas */
+.canciones {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+
+    gap: 26px;
+}
+
+
+/* Tarjetas */
+.tarjeta {
+    width: 292px;
+    height: 360px;
+
+    background-color: white;
+
+    border: 3px solid #40515c;
+    border-radius: 7px;
+
+    padding: 21px;
+
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Imágenes */
+.tarjeta img {
+    width: 100%;
+    height: 164px;
+
+    object-fit: cover;
+
+    display: block;
+
+    border-radius: 3px;
+
+    margin-bottom: 14px;
+}
+
+
+/* Títulos de las canciones */
+.tarjeta h2 {
+    text-align: center;
+
+    font-size: 21px;
+
+    color: #d16a18;
+
+    margin-bottom: 18px;
+}
+
+
+/* Descripción */
+.tarjeta p {
+    font-size: 14px;
+
+    font-style: italic;
+
+    color: #666;
+
+    line-height: 1.5;
+
+    margin-bottom: 17px;
+}
+
+
+/* Botón */
+.tarjeta button {
+    width: 100%;
+    height: 34px;
+
+    border: none;
+    border-radius: 3px;
+
+    background-color: #2985b8;
+
+    color: white;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+/* Efecto al pasar el mouse */
+.tarjeta button:hover {
+    background-color: #216f9b;
+}
